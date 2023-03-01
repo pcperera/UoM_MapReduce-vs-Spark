@@ -23,8 +23,7 @@
 
 1. ssh -i ~/vockey.pem hadoop@ec2-3-80-225-46.compute-1.amazonaws.com
 2. scp -i "~/vockey.pem" Spark/*.py hadoop@ec2-3-80-225-46.compute-1.amazonaws.com:~/
-3. pyspark load.py
-4. pyspark queries.py
+3. pyspark load-and-process.py
 
 
 
