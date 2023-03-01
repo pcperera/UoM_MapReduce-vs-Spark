@@ -1,0 +1,5 @@
+result = sqlContext.sql("SELECT Year, avg((CarrierDelay /ArrDelay)*100) from DelayedFlights GROUP BY Year").show()
+result = sqlContext.sql("SELECT Year, avg((NASDelay /ArrDelay)*100) from DelayedFlights GROUP BY Year").show()
+result = sqlContext.sql("SELECT Year, avg((WeatherDelay /ArrDelay)*100) from DelayedFlights GROUP BY Year").show()
+result = sqlContext.sql("SELECT Year, avg((LateAircraftDelay /ArrDelay)*100) from DelayedFlights GROUP BY Year").show()
+result = sqlContext.sql("SELECT Year, avg((SecurityDelay /ArrDelay)*100) from DelayedFlights GROUP BY Year").show()

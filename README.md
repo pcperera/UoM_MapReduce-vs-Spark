@@ -23,6 +23,11 @@
 
 1. ssh -i ~/vockey.pem -ND 8157 hadoop@ec2-54-162-254-83.compute-1.amazonaws.com
 2. pyspark
-3. df = spark.read.format("csv").option("header", "true").load("s3://<bucket-name>/<path-to>/data.csv")
+3. spark = SparkSession.builder.appName("Load Data to Spark Database").getOrCreate()
+4. df = spark.read.format("csv").option("header", "true").load("s3://mapreduce-assignment/input/DelayedFlights-updated.csv")
+5. df.write.saveAsTable("DelayedFlights")
+6. df.write.mode("append").insertInto("DelayedFlights")
+
+
 
 
