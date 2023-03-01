@@ -7,4 +7,5 @@ Commands
 5. hadoop fs -put DelayedFlights-updated.csv /flights/
 6. hive
 7. source load-delayed-flights.hql;
+8. chmod +x un-queries.sh
 8. run-queries.sh > run-queries.log
