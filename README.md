@@ -21,9 +21,10 @@
 
 ![cluster.png](Spark%2Fcluster.png)
 
-1. ssh -i ~/vockey.pem -ND 8157 hadoop@ec2-54-162-254-83.compute-1.amazonaws.com
-2. scp -i "~/vockey.pem" Spark/*.py hadoop@ec2-54-162-254-83.compute-1.amazonaws.com:~/
-3. pyspark Spark/queries.py
+1. ssh -i ~/vockey.pem hadoop@ec2-3-80-225-46.compute-1.amazonaws.com
+2. scp -i "~/vockey.pem" Spark/*.py hadoop@ec2-3-80-225-46.compute-1.amazonaws.com:~/
+3. pyspark load.py
+4. pyspark queries.py
 
 
 
