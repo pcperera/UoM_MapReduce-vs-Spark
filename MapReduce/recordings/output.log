@@ -1,3 +1,5 @@
+[hadoop@ip-172-31-91-108 ~]$ ./run-queries.sh > run-queries.log
+
 Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j2.properties Async: false
 Query ID = hadoop_20230301171055_3a4bc922-3708-48d2-919c-98877c09b39e
 Total jobs = 1
