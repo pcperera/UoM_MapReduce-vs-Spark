@@ -2,7 +2,7 @@
 
 #### MapReduce
 
-![img.png](img.png)
+![cluster.png](MapReduce%2Fcluster.png)
 
 1. ssh -i "~/vockey.pem" hadoop@ec2-3-88-33-238.compute-1.amazonaws.com
 2. scp -i "~/vockey.pem" data/DelayedFlights-updated.csv hadoop@ec2-3-88-33-238.compute-1.amazonaws.com:~/
@@ -14,15 +14,15 @@
 8. chmod +x run-queries.sh
 9. ./run-queries.sh > run-queries.log
 
-![img_1.png](img_1.png)
-
-
+![results.png](MapReduce%2Fresults.png)
 
 
 #### Spark
 
-![img.png](Spark/img.png)
+![cluster.png](Spark%2Fcluster.png)
 
 1. ssh -i ~/vockey.pem -ND 8157 hadoop@ec2-54-162-254-83.compute-1.amazonaws.com
-2. 
+2. pyspark
+3. df = spark.read.format("csv").option("header", "true").load("s3://<bucket-name>/<path-to>/data.csv")
+
 
