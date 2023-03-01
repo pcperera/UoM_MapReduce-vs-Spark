@@ -40,7 +40,7 @@ LOCATION 's3://mapreduce-assignment/input/';
 
 describe DelayedFlights;
 
-LOAD DATA INPATH '/fligths/DelayedFlights-updated.csv' OVERWRITE INTO TABLE DelayedFlights;
+LOAD DATA INPATH '/flights/DelayedFlights-updated.csv' OVERWRITE INTO TABLE DelayedFlights;
 
 SELECT * FROM DelayedFlights;
 
