@@ -1,3 +1,8 @@
+spark = SparkSession.builder.appName("Load Data to Spark Database").getOrCreate()
+df = spark.read.format("csv").option("header", "true").load("s3://mapreduce-assignment/input/DelayedFlights-updated.csv")
+df.write.saveAsTable("DelayedFlights")
+df.write.mode("append").insertInto("DelayedFlights")
+
 result = sqlContext.sql("SELECT Year, avg((CarrierDelay /ArrDelay)*100) from DelayedFlights GROUP BY Year").show()
 result = sqlContext.sql("SELECT Year, avg((NASDelay /ArrDelay)*100) from DelayedFlights GROUP BY Year").show()
 result = sqlContext.sql("SELECT Year, avg((WeatherDelay /ArrDelay)*100) from DelayedFlights GROUP BY Year").show()

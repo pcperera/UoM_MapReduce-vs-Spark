@@ -22,11 +22,9 @@
 ![cluster.png](Spark%2Fcluster.png)
 
 1. ssh -i ~/vockey.pem -ND 8157 hadoop@ec2-54-162-254-83.compute-1.amazonaws.com
-2. pyspark
-3. spark = SparkSession.builder.appName("Load Data to Spark Database").getOrCreate()
-4. df = spark.read.format("csv").option("header", "true").load("s3://mapreduce-assignment/input/DelayedFlights-updated.csv")
-5. df.write.saveAsTable("DelayedFlights")
-6. df.write.mode("append").insertInto("DelayedFlights")
+2. scp -i "~/vockey.pem" Spark/*.py hadoop@ec2-54-162-254-83.compute-1.amazonaws.com:~/
+3. pyspark Spark/queries.py
+
 
 
 
