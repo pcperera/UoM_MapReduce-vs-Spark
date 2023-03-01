@@ -1,4 +1,8 @@
-Commands
+### Commands
+
+#### MapReduce
+
+![img.png](img.png)
 
 1. ssh -i "~/vockey.pem" hadoop@ec2-3-88-33-238.compute-1.amazonaws.com
 2. scp -i "~/vockey.pem" data/DelayedFlights-updated.csv hadoop@ec2-3-88-33-238.compute-1.amazonaws.com:~/
@@ -9,3 +13,16 @@ Commands
 7. source load-delayed-flights.hql;
 8. chmod +x run-queries.sh
 9. ./run-queries.sh > run-queries.log
+
+![img_1.png](img_1.png)
+
+
+
+
+#### Spark
+
+![img.png](Spark/img.png)
+
+1. ssh -i ~/vockey.pem -ND 8157 hadoop@ec2-54-162-254-83.compute-1.amazonaws.com
+2. 
+
