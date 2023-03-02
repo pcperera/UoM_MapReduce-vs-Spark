@@ -30,7 +30,8 @@
 
 #### Evaluation
 
-![Homogeneous batch runtime (s).png](evaluation%2FHomogeneous%20batch%20runtime%20%28s%29.png)
+![Heterogeneous batch runtime vs Iteration.png](evaluation%2FHeterogeneous%20batch%20runtime%20vs%20Iteration.png)
 
-![Heterogeneous batch runtime (s).png](evaluation%2FHeterogeneous%20batch%20runtime%20%28s%29.png)
+![Homogeneous query average runtime.png](evaluation%2FHomogeneous%20query%20average%20runtime.png)
 
+![Homogeneous query total runtime in 5 iterations.png](evaluation%2FHomogeneous%20query%20total%20runtime%20in%205%20iterations.png)
