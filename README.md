@@ -25,7 +25,11 @@
 2. scp -i "~/vockey.pem" Spark/*.py hadoop@ec2-3-80-225-46.compute-1.amazonaws.com:~/
 3. spark-submit load-and-process.py
 
+![results.png](Spark%2Fresults.png)
 
 
 
+#### Evaluation
+
+![Runtime (s) vs Iteration.png](..%2F..%2F..%2FDownloads%2FRuntime%20%28s%29%20vs%20Iteration.png) 
 
