@@ -28,8 +28,9 @@
 ![results.png](Spark%2Fresults.png)
 
 
-
 #### Evaluation
+
+![raw-data.png](evaluation%2Fraw-data.png)
 
 ![Homogeneous batch runtime (s).png](evaluation%2FHomogeneous%20batch%20runtime%20%28s%29.png)
 
