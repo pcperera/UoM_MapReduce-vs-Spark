@@ -21,8 +21,8 @@
 
 ![cluster.png](Spark%2Fcluster.png)
 
-1. ssh -i ~/vockey.pem hadoop@ec2-3-80-225-46.compute-1.amazonaws.com
-2. scp -i "~/vockey.pem" Spark/*.py hadoop@ec2-3-80-225-46.compute-1.amazonaws.com:~/
+1. ssh -i ~/vockey.pem hadoop@ec2-34-239-248-169.compute-1.amazonaws.com
+2. scp -i "~/vockey.pem" Spark/*.py hadoop@ec2-34-239-248-169.compute-1.amazonaws.com:~/
 3. spark-submit load-and-process.py
 
 ![results.png](Spark%2Fresults.png)
