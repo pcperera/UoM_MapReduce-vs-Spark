@@ -35,3 +35,7 @@
 ![Homogeneous query average runtime.png](evaluation%2FHomogeneous%20query%20average%20runtime.png)
 
 ![Homogeneous query total runtime in 5 iterations.png](evaluation%2FHomogeneous%20query%20total%20runtime%20in%205%20iterations.png)
+
+
+1. Spark is considerably faster than MapReduce for the processing of given data set.
+2. Spark is relatively easy to use since Python can be used.
