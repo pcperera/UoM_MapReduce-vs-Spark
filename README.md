@@ -31,5 +31,7 @@
 
 #### Evaluation
 
-![Runtime (s) vs Iteration.png](..%2F..%2F..%2FDownloads%2FRuntime%20%28s%29%20vs%20Iteration.png) 
+![Homogeneous batch runtime (s).png](evaluation%2FHomogeneous%20batch%20runtime%20%28s%29.png)
+
+![Heterogeneous batch runtime (s).png](evaluation%2FHeterogeneous%20batch%20runtime%20%28s%29.png)
 
