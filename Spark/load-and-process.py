@@ -1,11 +1,11 @@
 from pyspark.sql import SparkSession
-from pyspark.conf import SparkConf
 
-table_name = 'DelayedFlights4'
+table_name = 'DelayedFlights1'
 spark = SparkSession.builder.appName("Spark Assignment").getOrCreate()
-conf = SparkConf()
 spark.conf.set("spark.sql.execution.time", "true")
-conf.set("spark.debug.maxToStringFields", "50")
+spark.conf.set("spark.sql.execution.time.threshold", "0")
+spark.conf.set("spark.debug.maxToStringFields", "50")
+spark.sparkContext.setLogLevel("DEBUG")
 df = spark.read.format("csv").option("header", "true").load("s3://mapreduce-assignment/input/DelayedFlights-updated.csv")
 df.write.mode("overwrite").saveAsTable(table_name)
 
