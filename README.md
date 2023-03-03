@@ -38,6 +38,8 @@
 
 ![(MapReduce over Spark) Average Exeuction Time Ratio.png](evaluation%2F%28MapReduce%20over%20Spark%29%20Average%20Exeuction%20Time%20Ratio.png)
 
+#### Conclusion
+
 1. Spark is significantly faster than MapReduce for the processing of given data set.
-2. Spark is relatively easy to use for data loading and execution because of more high level API support such as Python.
+2. Spark is relatively easy to use for data loading and execution because of more high level API support such as Python and Scala.
 3. MapReduce in contrast relatively less easy to use because of the less declarative API support which involved writing more lines of code. 
