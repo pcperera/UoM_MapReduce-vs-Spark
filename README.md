@@ -38,7 +38,7 @@
 
 ###### Average comparison 
 ![Homogeneous query average runtime.png](evaluation%2FHomogeneous%20query%20average%20runtime.png)
-![(MapReduce over Spark) Average Exeuction Time Ratio.png](evaluation%2F%28MapReduce%20over%20Spark%29%20Average%20Exeuction%20Time%20Ratio.png)
+![(MapReduce over Spark) Homegeneous Query Average Exeuction Time Ratio.png](evaluation%2F%28MapReduce%20over%20Spark%29%20Homegeneous%20Query%20Average%20Exeuction%20Time%20Ratio.png)
 
 #### Conclusion
 
