@@ -13,7 +13,8 @@
 
 ### Introduction
 
-Evaluation of MapReduce and Spark for the given dataset and queries is summarized in this README file. Below directories contain source code, log output, statistics, images and recordings.
+Evaluation of MapReduce and Spark for the given dataset/queries is summarized and referenced in this README file. 
+Below directories contain source code, log output, statistics, images and recordings.
 
 | Directory  | Content                                               |
 |------------|-------------------------------------------------------|
