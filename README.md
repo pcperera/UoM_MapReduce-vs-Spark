@@ -1,15 +1,18 @@
+## Table of Contents
 <!-- TOC -->
+  * [Table of Contents](#table-of-contents)
     * [Introduction](#introduction)
     * [Analysis](#analysis)
       * [MapReduce](#mapreduce)
+        * [Commands](#commands)
       * [Spark](#spark)
+        * [Commands](#commands-1)
     * [Evaluation](#evaluation)
         * [Heterogeneous query evaluation](#heterogeneous-query-evaluation)
         * [Homogeneous query evaluation](#homogeneous-query-evaluation)
           * [Average comparison](#average-comparison)
     * [Conclusion](#conclusion)
 <!-- TOC -->
-
 
 ### Introduction
 
@@ -28,8 +31,10 @@ Below directories contain source code, log output, statistics, images and record
 
 #### MapReduce
 
+##### Cluster config
 ![cluster.png](MapReduce%2Fcluster.png)
 
+##### Steps
 1. ssh -i "~/vockey.pem" hadoop@ec2-3-88-33-238.compute-1.amazonaws.com
 2. scp -i "~/vockey.pem" data/DelayedFlights-updated.csv hadoop@ec2-3-88-33-238.compute-1.amazonaws.com:~/
 3. scp -i "~/vockey.pem" MapReduce/*.hql MapReduce/*.sh hadoop@ec2-3-88-33-238.compute-1.amazonaws.com:~/
@@ -42,8 +47,10 @@ Below directories contain source code, log output, statistics, images and record
 
 #### Spark
 
+##### Cluster config
 ![cluster.png](Spark%2Fcluster.png)
 
+##### Steps
 1. ssh -i ~/vockey.pem hadoop@ec2-34-239-248-169.compute-1.amazonaws.com
 2. scp -i "~/vockey.pem" Spark/*.py hadoop@ec2-34-239-248-169.compute-1.amazonaws.com:~/
 3. spark-submit load-and-process.py
