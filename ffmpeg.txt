@@ -1,3 +1,5 @@
-file 'MapReduce/recordings/mapreduce.mp4'
-file 'Spark/recordings/spark.mp4'
+file 'evaluation/recordings/01-introduction.mp4'
+file 'evaluation/recordings/02-mapreduce.mp4'
+file 'evaluation/recordings/03-spark.mp4'
+file 'evaluation/recordings/04-evaluation and conclusion.mp4'
 

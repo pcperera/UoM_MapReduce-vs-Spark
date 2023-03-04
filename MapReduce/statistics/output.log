@@ -1,0 +1,316 @@
+[hadoop@ip-172-31-91-108 ~]$ ./run-queries.sh > run-queries.log
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j2.properties Async: false
+Query ID = hadoop_20230301171055_3a4bc922-3708-48d2-919c-98877c09b39e
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0039)
+
+Map 1: -/-	Reducer 2: 0/2
+Map 1: -/-	Reducer 2: 0/2
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0(+1)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 27.081 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171123_af5b0c37-0ad0-491f-b5a8-ce67b5be3ce5
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0039)
+
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 1(+1)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 2.249 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171125_cf0c20ae-42fc-4b69-b6e4-342fbd3d8967
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0039)
+
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0(+1)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 2.329 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171128_31be15eb-8365-4884-a2d7-48d5d030d64f
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0039)
+
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 1(+1)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 1.685 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171129_3cb6b855-679b-4b29-bd79-a4650dd0c19f
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0039)
+
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 1.658 seconds, Fetched: 9 row(s)
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j2.properties Async: false
+Query ID = hadoop_20230301171143_29e46686-4df6-4301-8d1a-2c1d74b36c9f
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0041)
+
+Map 1: -/-	Reducer 2: 0/2
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0(+1)/2
+Map 1: 1/1	Reducer 2: 1(+1)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 25.401 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171209_39ce00bb-10c7-4d52-9081-8be500501304
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0041)
+
+Map 1: -/-	Reducer 2: 0/2
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0(+1)/2
+Map 1: 1/1	Reducer 2: 1(+1)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 2.318 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171211_2ff165fa-19db-41f5-a3fb-22f316c6d55e
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0041)
+
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0(+1)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 1.759 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171213_559bc9a4-20ca-4164-9d17-91881897c3fb
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0041)
+
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 1.723 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171215_7e5af945-d7ea-4534-9249-a458df8f2c02
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0041)
+
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 1(+1)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 1.799 seconds, Fetched: 9 row(s)
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j2.properties Async: false
+Query ID = hadoop_20230301171228_2d2245d1-842e-4f62-a680-bb1e9708fe93
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0043)
+
+Map 1: -/-	Reducer 2: 0/2
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0(+1)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 27.718 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171256_e583c1d2-e3a5-4275-9d24-52a8f296198b
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0043)
+
+Map 1: -/-	Reducer 2: 0/2
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0(+1)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 2.046 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171258_919935ed-a12b-435e-ad44-0eb435b584b0
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0043)
+
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 1.805 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171300_55447369-df06-4472-83f0-5a1f98829229
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0043)
+
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0(+1)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 1.761 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171302_2bdaf685-a1cc-419a-a1e5-7a5e6672872d
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0043)
+
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 1(+1)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 1.705 seconds, Fetched: 9 row(s)
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j2.properties Async: false
+Query ID = hadoop_20230301171314_106c600d-be28-40af-b0d9-e30c5223856a
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0045)
+
+Map 1: -/-	Reducer 2: 0/2
+Map 1: -/-	Reducer 2: 0/2
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0(+1)/2
+Map 1: 1/1	Reducer 2: 1(+1)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 27.895 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171343_e7886cd6-1541-43d5-9d7a-79659ef7d210
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0045)
+
+Map 1: -/-	Reducer 2: 0/2
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0(+1)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 1.871 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171345_5698e766-6208-44e2-9dcb-4d83fb94a3b9
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0045)
+
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 1.91 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171347_0aa80cba-5142-4e59-8f70-7ccaf49f9458
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0045)
+
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0(+1)/2
+Map 1: 1/1	Reducer 2: 1(+1)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 8.167 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171355_b70166a5-53a8-41fd-9a7f-8d700ae310cb
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0045)
+
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0(+2)/2
+Map 1: 1/1	Reducer 2: 1(+1)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 2.156 seconds, Fetched: 9 row(s)
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j2.properties Async: false
+Query ID = hadoop_20230301171409_243f93ad-4ecc-4094-90eb-7c07167d7d1d
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0047)
+
+Map 1: -/-	Reducer 2: 0/2
+Map 1: -/-	Reducer 2: 0/2
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0(+1)/2
+Map 1: 1/1	Reducer 2: 1(+1)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 27.024 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171436_58b0af97-b12c-41ce-9ab7-9101715286c2
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0047)
+
+Map 1: -/-	Reducer 2: 0/2
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 1(+1)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 2.324 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171439_2a6b68f2-314d-4281-a71e-56a4244a5517
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0047)
+
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 1.686 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171440_a39f2ecf-8434-4be4-b23d-3f0157d17b55
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0047)
+
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 1(+0)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 1.89 seconds, Fetched: 9 row(s)
+Query ID = hadoop_20230301171442_18e25765-d7b5-45ad-a472-3761f8c80a5a
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1677678108516_0047)
+
+Map 1: 0/1	Reducer 2: 0/2
+Map 1: 0(+1)/1	Reducer 2: 0/2
+Map 1: 1/1	Reducer 2: 0(+1)/2
+Map 1: 1/1	Reducer 2: 2/2
+OK
+Time taken: 1.721 seconds, Fetched: 9 row(s)

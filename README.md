@@ -1,4 +1,27 @@
-### Commands
+<!-- TOC -->
+    * [Introduction](#introduction)
+    * [Analysis](#analysis)
+      * [MapReduce](#mapreduce)
+      * [Spark](#spark)
+    * [Evaluation](#evaluation)
+        * [Heterogeneous query evaluation](#heterogeneous-query-evaluation)
+        * [Homogeneous query evaluation](#homogeneous-query-evaluation)
+          * [Average comparison](#average-comparison)
+    * [Conclusion](#conclusion)
+<!-- TOC -->
+
+
+### Introduction
+
+Evaluation of MapReduce and Spark for the given dataset and queries is summarized in this README file. Below directories contain raw data, log output, images and recordings.
+
+* MapReduce - MapReduce raw data
+* Spark - Spark raw data
+* data - raw data
+* evaluation - MapReduce and Spark analysis raw data and recordings.
+
+
+### Analysis
 
 #### MapReduce
 
@@ -23,7 +46,7 @@
 3. spark-submit load-and-process.py
 
 
-#### Evaluation
+### Evaluation
 
 ![results.png](MapReduce%2Fresults.png)
 ![results.png](Spark%2Fresults.png) 
@@ -40,7 +63,7 @@
 ![Homogeneous query average runtime.png](evaluation%2FHomogeneous%20query%20average%20runtime.png)
 ![(MapReduce over Spark) Homegeneous Query Average Exeuction Time Ratio.png](evaluation%2F%28MapReduce%20over%20Spark%29%20Homegeneous%20Query%20Average%20Exeuction%20Time%20Ratio.png)
 
-#### Conclusion
+### Conclusion
 
 1. Spark is significantly faster than MapReduce for the processing of given data set.
 2. Spark is relatively easy to use for data loading and execution because of more high level API support such as Python and Scala.
